@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Meta -->
+    <string name="debug">true</string>
+
+    <!-- Base Url -->
+    <!--<string name="base">http://192.168.9.100:81/yezzclub-admin/public/</string>-->
+    <string name="base">http://trademarketing.sayyezz.com/</string>
+    <!--<string name="base">http://192.168.10.200/</string>-->
+
+    <!-- Files Names -->
+    <string name="fileUserJson">log_user.txt</string>
+    <string name="fileLastUser">last_user.txt</string>
+    <string name="fileRouteUser">route_user.txt</string>
+    <string name="fileStoreJson">log_store.txt</string>
+
+    <!-- Routes -->
+    <string name="routeLogin">android/login</string>
+    <string name="routeCache">android/systemCache</string>
+    <string name="routeForgetPassword">android/forgetPassword</string>
+    <string name="routeResetPassword">android/resetPassword</string>
+    <string name="routeSendSynchronize">android/synchronizeServer</string>
+    <string name="routeSyncLocalization">android/synchronizeLocalization</string>
+    <string name="routeSyncData">android/synchronizeData</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_menu_store">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_menu_blue"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store"
+            android:id="@+id/tvStoreName"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/label_store_information"
+            android:onClick="clickStoreInfoShow"
+            android:layout_centerHorizontal="true"
+            android:background="@color/ButtonBlue400"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quantitative"
+            android:onClick="clickStoreQuantitative"
+            android:background="@color/ButtonBlue600"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photo_evidence"
+            android:onClick="clickStorePhotoEvidence"
+            android:background="@color/ButtonBlue800"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bStorePhotoEvidence"  />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/comment"
+            android:onClick="clickStoreSynchronize"
+            android:background="@color/ButtonBlue400"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bStoreSynchronize" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_pop_installed"
+            android:onClick="clickStoreHasPop"
+            android:background="@color/ButtonBlue600"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_visit"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="#fff"
+            android:id="@+id/bStoreCloseVisit"
+            android:onClick="clickStoreClose"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer_menu_store"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:background="#162125"
+        android:listSelector="@android:color/darker_gray"/>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_quantitative">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#edeef0">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="16dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="100dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/yezz_product"
+                        android:textColor="@color/abc_secondary_text_material_light"
+                        android:textAlignment="center"
+                        android:paddingBottom="20dp"
+                        android:textSize="15dp" />
+
+                    <!--Marca -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brand"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"
+                        android:id="@+id/sQuantitativeBrand"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etQuantitativeBrand"
+                        android:hint="@string/brand"
+                        android:visibility="gone"
+                        android:singleLine="true"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <!--Modelo -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/model"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"
+                        android:id="@+id/sQuantitativeModel"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etQuantitativeModel"
+                        android:hint="@string/model"
+                        android:visibility="gone"
+                        android:singleLine="true"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <!--Stock -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stock"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etQuantitativeStock"
+                        android:hint="@string/stock"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <!--Ventas -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sales"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etQuantitativeSales"
+                        android:hint="@string/sales"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <!--exhibition -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exhibition"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+                    <!--Exhibicion -->
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lyPicture">
+
+                        <EditText
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:layout_weight="1"
+                            android:layout_alignParentLeft="true"
+                            android:id="@+id/etQuantitativeExhibition"
+                            android:inputType="number"
+                            android:hint="@string/exhibition"
+                            android:layout_gravity="left"
+                            android:textColor="@color/colorPrimaryDark" />
+                        <ImageButton
+                            android:id="@+id/ibQuantitativeExhibition"
+                            android:layout_height="wrap_content"
+                            android:layout_width="60dp"
+                            android:layout_gravity="left"
+                            android:onClick="clickQuantitativeTakePicture"
+                            android:src="@android:drawable/ic_menu_camera" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_height="100dp"
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:id="@+id/imageView"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etQuantitativePictureComment"
+                        android:hint="@string/comment"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:textColorHighlight="@color/red"
+                        android:textColorLink="@color/red"
+                        android:maxLines="4"
+                        android:textColor="@color/red" />
+
+                    <!--Precio -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/purchase_price"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <EditText
+                        android:id="@+id/etQuantitativePurchasePrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/purchase_price"
+                        android:inputType="number|numberDecimal"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sale_price"
+                        android:layout_gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <EditText
+                        android:id="@+id/etQuantitativeSalePrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/sale_price"
+                        android:inputType="number|numberDecimal"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <!--Guardar -->
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/to_register"
+                        android:id="@+id/btnQuantitativeSave"
+                        android:onClick="clickQuantitativeSend"
+                        android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer_quantitative"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:background="#162125"
+        android:listSelector="@android:color/darker_gray"/>
+</android.support.v4.widget.DrawerLayout>

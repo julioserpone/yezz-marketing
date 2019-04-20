@@ -1,0 +1,180 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Yezz Promoting</string>
+    <!-- common -->
+    <string name="yes">Si</string>
+
+    <!-- Login -->
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Entrar</string>
+    <string name="send">Enviar</string>
+    <string name="forgot_password">¿A olvidado su contraseña?</string>
+    <string name="credential_invalid">Credenciales Invalidas</string>
+    <string name="sigin">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="no_connection">Error de Conexión</string>
+
+    <!-- cache -->
+    <string name="no_cache">Sincronizando con el Servidor</string>
+    <!--<string name="no_cache">Su dispositivo necesita sincronizar su información con el servidor</string>-->
+    <string name="wait_minutes">Esto puede tardar varios minutos</string>
+    <string name="error_request">Error de solicitud</string>
+    <string name="error_close_app">La aplicación se cerrará por motivos de seguridad</string>
+
+    <!-- Menu Options -->
+    <string name="dashboard">Inicio</string>
+    <string name="profile">Perfil</string>
+    <string name="store">Tienda</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="route">Ruta</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Profile -->
+    <string name="personal_info">Información Personal</string>
+    <string name="email">Correo</string>
+    <string name="birthdate">Fecha de Nacimiento</string>
+    <string name="gender">Genero</string>
+    <string name="address">Dirección</string>
+
+    <!-- Store Identify -->
+    <string name="select_store">Elija una tienda</string>
+    <string name="enter_code_store">Ingrese código de la tienda</string>
+    <string name="others">Otros</string>
+    <string name="search">Buscar</string>
+    <string name="to_register">Registrar</string>
+    <string name="RIF_and_other_codes">RIF/RUC/NIT</string>
+
+    <!-- soon  -->
+    <string name="we_work_for_you">Trabajamos para usted</string>
+    <string name="will_soon_be_available_this_module">Muy Pronto estará disponible este módulo</string>
+    <string name="back">Volver</string>
+
+    <!-- Store Add-->
+    <string name="channel">Canal</string>
+    <string name="type">Tipo</string>
+    <string name="type_channel">Tipo de canal</string>
+    <string name="segment">Segmento</string>
+    <string name="chain">Cadena</string>
+    <string name="name">Nombre</string>
+    <string name="code">Código</string>
+    <string name="location">Ubicación </string>
+    <string name="state">Estado/Departamento</string>
+    <string name="states">Estados/Departamentos</string>
+    <string name="township">Municipio</string>
+    <string name="townships">Municipios</string>
+    <string name="city">Ciudad</string>
+    <string name="country">País</string>
+    <string name="zone">Zona</string>
+    <string name="reference">Referencia</string>
+    <string name="is_yezz_store">¿Es tienda YEZZ?</string>
+    <string name="has_pop_installed">¿Tiene Material POP instalado?</string>
+    <string name="store_type">Tipo de Tienda</string>
+    <string name="category">Categoria</string>
+    <string name="alert_category_title">Indique la Categoria</string>
+    <string name="dialog_msg_customer">¿Es cliente Yezz?</string>
+    <string name="dialog_msg_pop_installed">¿Tiene Material POP de YEZZ instalado?</string>
+    <string name="button_pop_installed">¿Tiene Material POP?</string>
+    <string name="belong_chain">¿Pertenece a una cadena?</string>
+    <string name="observations">Comentarios/Observaciones</string>
+
+    <!-- Store Meta -->
+    <string name="channels">Canales</string>
+    <string name="types">Tipos</string>
+    <string name="segments">Segmentos</string>
+    <string name="chains">Cadenas</string>
+    <string name="no_records">No se encontraron registros</string>
+    <string name="required_chain">Indique la cadena</string>
+
+    <!-- Menu Store -->
+    <string name="brand">Marca</string>
+    <string name="brands">Marcas</string>
+    <string name="model">Modelo</string>
+    <string name="models">Modelos</string>
+    <string name="stock">Stock</string>
+    <string name="price">Precio</string>
+    <string name="prices">Precios</string>
+    <string name="exhibition">Cantidad de Producto Exhibido</string>
+    <string name="exhibitions">Exhibiciones</string>
+    <string name="sale">Venta</string>
+    <string name="sales">Ventas por Semana</string>
+    <string name="photo_evidence">Foto Tienda/POP</string>
+    <string name="finish_store_close">Finalizar Cierre</string>
+    <string name="procces_store_close">Procesar Cierre Tienda</string>
+    <string name="visit_detail">detalle de visita</string>
+    <string name="sale_price">Precio de Venta</string>
+    <string name="purchase_price">Precio de Compra</string>
+    <string name="screen_size">Tamaño Pantalla</string>
+    <string name="label_specification">Especificaciones de Telefono</string>
+    <string name="yezz_product">Producto Yezz</string>
+    <string name="equivalent_product">Producto Competencia</string>
+    <string name="color">Color</string>
+    <string name="colours">Colores</string>
+    <string name="processor">Procesador</string>
+    <string name="procesors">Procesadores</string>
+    <string name="back_cam">Camara Trasera</string>
+    <string name="front_cam">Camara Delantera</string>
+    <string name="battery">Bateria</string>
+    <string name="batery_label">Bateria (mAh)</string>
+    <string name="so">Sistema Operativo</string>
+    <string name="quantitative">Cuantitativo</string>
+    <string name="quantitatives">Cuantitativos</string>
+    <string name="label_store_information">Informacion de la Tienda</string>
+    <string name="store_close">Cerrar Tienda</string>
+    <string name="networks">Redes</string>
+    <string name="core">Nucleo</string>
+    <string name="_continue">Continuar</string>
+    <string name="msg_form_quantitative">Recuerde Almacenar los productos de la competencia para este producto</string>
+    <string name="msg_error_no_info_store">Ocurrio un error, no hay información de la tienda para mostrar, intente nuevamente</string>
+
+    <string name="end_process">Finalizar Proceso</string>
+    <string name="msg_dialog_end_process">¿Desea finalizar este proceso o agregar otro producto de la competencia?</string>
+    <string name="finalize">Finalizar</string>
+    <string name="add_another">Agregar otro</string>
+    <string name="the_field">El campo</string>
+    <string name="is_required">es requerido</string>
+    <string name="is_integer">es un numero entero</string>
+    <string name="is_decimal">es un numero decimal</string>
+    <string name="synchronize">Sincronizar</string>
+    <string name="synchronize_process">Sincronizando</string>
+    <string name="reset">Resetear</string>
+    <string name="reset_info">Cuando sospeche que su aplicación está funcionando de manera indebida, por favor reinicie toda su configuración por medio de esta opción.</string>
+    <string name="reset_info2">Esta opción le permitirá borrar todo su contenido local sincronizado y no sincronizado, y así posteriormente estar en perfecta sincronía con el servidor.</string>
+    <string name="reset_info3">Despues de ejecutada esta acción su sesión finalizará por medidas de seguridad.</string>
+
+    <!-- Route -->
+    <string name="status">Estado</string>
+    <string name="not_belong_route">La tienda no pertenece a la ruta</string>
+    <string name="belong_route">La tienda pertenece a la ruta</string>
+    <string name="store_unvisited">Tienda sin visitar</string>
+    <string name="store_visited">Tienda visitada</string>
+    <string name="no_route">Si ruta asignada</string>
+    <string name="comment">Comentario</string>
+
+    <!-- Forget Password -->
+    <string name="recover_password">Recuperar Contraseña</string>
+    <string name="forget_password_info">Indique la dirección de correo de su cuenta para suministrar una contraseña temporal</string>
+    <string name="forget_password_success">Una contraseña temporal fue enviada a su dirección de correo, ingrese nuevamente en el sistema con esta contraseña y siga los pasos</string>
+    <string name="forget_password_fail">El correo que indicó no se encuentra registrado en nuestro sistema</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="new_password_confirm">Confirme nueva contraseña</string>
+    <string name="reset_password_info">Hemos recibido una contraseña temporal, igrese una nueva contraseña permanente para poder ingresar al sistema</string>
+    <string name="reset_password_confirm_fail">Las contraseñas no coinciden</string>
+    <string name="reset_password_fail">Ha ocurrido un error con las credenciales, por favor ingresa nuevamente al sistema</string>
+    <string name="reset_password_success">Su contraseña permanten ha sido establecida, ingresa nuevamente al sistema para completar la configuración</string>
+    <string name="store_information">Información de la Tienda</string>
+    <string name="close">Cerrar</string>
+    <string name="finish_visit">Finalizar Visita</string>
+
+    <!--StoreContact -->
+    <string name="surname">Apellido</string>
+    <string name="store_position">Cargo</string>
+    <string name="phone">Telefono</string>
+    <string name="customer_title">Registrar Contacto</string>
+    <string name="dialog_title_default">Indique</string>
+    <string name="accept">Aceptar</string>
+    <string name="alert">Alerta</string>
+    <string name="alert_gps_activate">Por favor active el GPS</string>
+
+</resources>
